@@ -1,4 +1,4 @@
-# West Nile Virus Prediction
+Project 4: West Nile Virus Prediction
 ---
 
 ## Executive Summary
