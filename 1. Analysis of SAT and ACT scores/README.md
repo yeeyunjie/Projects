@@ -1,8 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Standardized Testing, Statistical Summaries and Inference
+Project 1: Standardized Testing, Statistical Summaries and Inference
 
 ### Problem Statement
 
-With two different college exams available, SAT and ACT, we aim to locate, exploit factors that undermine preferences for the SAT test in particular and therefore provide recommendations to increase participation rate in a desired state. **New Mexico** would be our state of choice for investment given its promising potential in accepting SAT as the preferred college admissions exam which would be unravelled in the analysis below. 
+As an employee of the College Board, I aim to encourage greater SAT participation in the United States. With two different college exams available, SAT and ACT, we aim to locate, exploit factors that undermine preferences for the SAT test in particular and therefore provide recommendations to increase participation rate in a desired state. New Mexico would be the state of choice for investment given its promising potential in accepting SAT as the preferred college admissions exam which would be unravelled in the analysis below.
 
 ### Executive Summary
 The study of the participation rates and test results of both SAT and ACT test have unravelled the preferrences behind the selection of either of them as a college entrance exam. 
