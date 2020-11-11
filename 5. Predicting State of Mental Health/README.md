@@ -169,6 +169,7 @@ Undersampling was done to randomly reduce the number of rows in the majority cla
 
 
 ### Conclusion 
+---
 **1) Logistic regression for feature importance** <br>
 The logistic regression is advantageous in quantifying the strength and direction of each feature in determining the target variable unlike the ExtraTrees and RandomForests. Feature importances identified by the ensemble learning methods are not interpretable in helping to generate predictions or for analysis. Even though the ROC-AUC and recall scores of logistic regression are lower than that of the ensemble methods, there is less overfitting in logistic regression and thus able to generalize better to unseen data.
 
@@ -176,6 +177,7 @@ The logistic regression is advantageous in quantifying the strength and directio
 The model chosen to for predictive purposes would be the ExtraTrees Classifier with its optimal tuned hyperparameters. Although most of the models have shown comparable ROC-AUC and recall scores, this classifier exhibited an optimal balance of bias-variance tradeoff and thus it is best able to generalize to unseen data. Even though the performance of RandomForests was similar to the ExtraTrees, it was time consuming to run the former and thus deployment of ExtraTrees would be computationally efficient.
 
 ### Recommendations
+---
 Based on the features identified to have strong correlations with our target variable(`DOWN`,`ANXIOUS`,`TBIRTH_YEAR`), they would be the deciding factors for the states chosen where these models could be implemented. This would help to narrow our target population and provide a greater understanding of the magnitude of spread of mental health disorders when models are fed with state-specific data. Therefore, local health departments can make well-informed decisions on resource allocation according to the needs of different states <br>
 
 **1) Implement models in a state that requires immediate aid - Oregon:** <br>
