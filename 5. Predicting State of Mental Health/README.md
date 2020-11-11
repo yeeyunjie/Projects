@@ -36,7 +36,7 @@ The dataset consists of a set of questionaries which are heavily subjected to re
 1) pulse2020_puf_13.csv (109,051 rows) from 2020-08-19 to 2020-08-31<br>
 2) pulse2020_puf_14.csv (110,019 rows) from 2020-09-02 to 2020-09-14<br>
 #### Data Cleaning and Visualization
-1) Drop redundant columns (Date, Latitude, Longitude, Block, Street, Address and some weather
+1) Drop redundant columns (Date, Latitude, Longitude, Block, Street, Address)
 2) Removal of duplicates <br>
 3) Implementing imputation <br>
 4) Removal of correlated features <br>
