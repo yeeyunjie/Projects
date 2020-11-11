@@ -154,8 +154,8 @@ The dataset consists of a set of questionaries which are heavily subjected to re
 
 Through training of 8 different classification models, we have selected Logistic Regression for inferential analysis and ExtraTrees Classifier as our predictive model. 
 
-|Model| ROC-AUC score | Recall | Best Parameters |
-|----------|------------------------------|
+| Model | ROC-AUC score | Recall | Best Parameters |
+|:---|:---|:---|:---|
 | Logistic Regression | 0.790 | 0.802 | C: 0.01, penalty: l2 |
 | ExtraTrees Classifier | 0.770 | 0.856 | class_weight: balanced, max_depth: 40, max_features: auto, min_samples_leaf: 20, n_estimators: 150 | 
 
