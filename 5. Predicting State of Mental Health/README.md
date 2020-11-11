@@ -3,7 +3,7 @@ Capstone project: Identify respondents that avoid seeking mental help
 
 ### Problem Statement
 ---
-The ongoing Household Pulse Survey conducted in the States aims to measure household experiences during the coronvarius pandemic. This unprecendented spread of disease is predicted to have a long-tail effect on the mental health of people. Moreover, the lack of mental heath literacy/awareness has discouraged people from seeking the help they need. In order to identify this susceptible group of people as well as to understand and quantify importance of factors that drive such a vulnerability/resistance to seeking mental aid, I aim to build two models to meet two different objectives. One is a binary classification **ExtraTrees Classifier model** to predict the development of avoidance behaviours with regards to seeking mental health therapy and a second **Logistic Regression** inference model to identify the top predictor features given the wide range of variables present which provides a holistic overview of a person's livelihood. Understanding these features would aid in making well-informed recommendations to better tackle the root causes of such a tendency. The performances of these models would be evaluated by **ROC-AUC** and **recall** scores. 
+The ongoing Household Pulse Survey conducted in the States aims to measure household experiences during the coronvarius pandemic. This unprecendented spread of COVID-19 is predicted to have a long-tail effect on the mental health of people similar to the aftermath of many past natural diseases/pandemics. Moreover, the lack of mental heath literacy/awareness has discouraged people from seeking the help they need. In order to identify this susceptible group of people as well as to understand and quantify importance of factors that drive such a vulnerability/resistance to seeking mental aid, I aim to build two models to meet two different objectives. One is a binary classification **ExtraTrees Classifier model** to predict the development of avoidance behaviours with regards to seeking mental health therapy and a second **Logistic Regression** inference model to identify the top predictor features given the wide range of variables present which provides a holistic overview of a person's livelihood. Understanding these features would aid in making well-informed recommendations to better tackle the root causes of such a tendency. The performances of these models would be evaluated by **ROC-AUC** and **recall** scores. 
 
 ### Executive Summary
 ---
@@ -178,8 +178,8 @@ The model chosen to for predictive purposes would be the ExtraTrees Classifier w
 ### Recommendations
 Based on the features identified to have strong correlations with our target variable(`DOWN`,`ANXIOUS`,`TBIRTH_YEAR`), they would be the deciding factors for the states chosen where these models could be implemented. This would help to narrow our target population and provide a greater understanding of the magnitude of spread of mental health disorders when models are fed with state-specific data. Therefore, local health departments can make well-informed decisions on resource allocation according to the needs of different states <br>
 
-**1) Implement models in a state that requires immediate aid - Oregon:** 
+**1) Implement models in a state that requires immediate aid - Oregon:** <br>
 Before these models are used on a larger scale, it would be more effective to deploy the model in a state that requires urgent intervention. One such example would be Oregon as it has marked the checkbox on high `DOWN` and `ANXIOUS` values and a comparatively younger population.
 
-**2) Implement models in states that show similar characteristics - Utah, Illinois:**
+**2) Implement models in states that show similar characteristics - Utah, Illinois:** <br>
 These states have been identified to have `DOWN` and `ANXIOUS` on the higher end of the scale and also relatively younger populations.
